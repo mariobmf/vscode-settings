@@ -1,0 +1,172 @@
+{
+  // Editor config
+  // "editor.wordWrap": "wordWrapColumn",
+  // "editor.wordWrapColumn": 80,
+  "editor.tabSize": 2,
+  "editor.largeFileOptimizations": false,
+  "editor.insertSpaces": true,
+"editor.detectIndentation": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.acceptSuggestionOnCommitCharacter" : false,
+  // "editor.rulers" : [
+  //   80,
+  //   120
+  // ],
+
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  // Auto Import
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+
+  // ESLint
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  //Prettier
+  // "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+
+  //AUTO CLOSE TAG
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+    "HTML (Eex)"
+  ],
+
+  // Backup
+  "sync.quietSync": false,
+  "sync.gist": "e9f19dc7dfda6c4cdaa7922061bf96d9",
+
+  // CSpell Configuration
+  "cSpell.ignorePaths": [
+    "node_modules", // this will ignore anything the node_modules directory
+    "**/node_modules", // the same for this one
+    "**/node_modules/**", // the same for this one
+    "node_modules/**", // Doesn't currently work due to how the current working directory is determined.
+    "vscode-extension", //
+    ".git" // Ignore the .git directory
+  ],
+  "cSpell.language": "en,pt,pt_PT",
+  "cSpell.userWords": [
+    "adonisjs",
+    "cnab",
+    "Cnab",
+    "cnpj",
+    "Cnpj",
+    "Codigos",
+    "dropzone",
+    "dtos",
+    "Errored",
+    "esnext",
+    "FASTFOOD",
+    "gtin",
+    "homologation",
+    "hookform",
+    "kicarrinho",
+    "middlewares",
+    "qrcode",
+    "roadpass",
+    "signup",
+    "tsyringe",
+    "typeorm",
+    "unform",
+    "varchar",
+    "viuvo"
+  ],
+
+  // Remove os arquivos da exibição
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "node_modules": true,
+    "**/node_modules": true
+  },
+
+  // Terminal
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.profiles.linux": {
+    "zsh": {
+      "path": "/bin/zsh",
+      "icon": "star",
+      "env": {}
+    }
+  },
+
+  // Theme
+  "workbench.colorTheme": "Omni Owl (Minimal Italics)",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "mocks": "mock",
+    "Exceptions": "error",
+    "factories": "scripts",
+    "firebase": "firebase",
+    "collections": "firebase"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "firebase.ts": "firebase",
+    "tsconfig.json": "tune",
+    "styles.ts": "css"
+  },
+
+  // Segurança
+  "security.workspace.trust.untrustedFiles": "open",
+
+  // Outros
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "json.schemas": [
+    {
+      "name": "vscode-expo-manifest",
+      "url": "file:///home/mario/.config/Code/User/globalStorage/bycedric.vscode-expo/manifest-45.0.0.json",
+      "fileMatch": [
+        "app.json",
+        "app.config.json"
+      ]
+    }
+  ]
+}
